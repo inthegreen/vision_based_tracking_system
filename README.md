@@ -136,7 +136,7 @@ project_root/
 ```
 
 ## How It Works
-### 1. Detectino
+### 1. Detection
 ### 2. Tracking (Kalman + KCF + CSRT)
 ### 3. Trajectory Calculation
 ### 4. Motor Control Pipeline
