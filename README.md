@@ -78,21 +78,9 @@ project_root/
 │   │   ├─ preprocessor.py        # 전처리
 │   │   └─ __init__.py
 │   │
-│   ├─ tracking/
-│   │   ├─ base_tracker.py        # 공통 인터페이스 정의
-│   │   ├─ kalman_filter.py       # Kalman Filter 모듈
-│   │   ├─ kcf_tracker.py         # KCF Tracker
-│   │   ├─ csrt_tracker.py        # CSRT Tracker
-│   │   ├─ hybrid_tracker.py      # KCF/CSRT/Kalman 하이브리드 관리
-│   │   └─ __init__.py
-│   │
 │   ├─ trajectory/
 │   │   ├─ Trajectory_Prediction.py # 비행체 위치 예측
-│   │   └─ __init__.py
-│   │
-│   ├─ controller/
-│   │   ├─ angle_mapper.py        # bbox → error → 각도 변환
-│   │   ├─ motor_command.py       # 각도 → 스텝 변환
+│   │   ├─ kalman_filter.py       # Kalman Filter 모듈
 │   │   └─ __init__.py
 │   │
 │   ├─ communication/
