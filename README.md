@@ -61,38 +61,22 @@ project_root/
 │   ├─ samples/
 │   └─ test_videos/
 │
-├─ config/                        # config YAML 파일들
-│   ├─ camera.yaml
-│   ├─ tracking.yaml
-│   ├─ motor.yaml
-│   └─ system.yaml
-│
 ├─ vision_based_tracking_system/
 │   ├─ camera/
 │   │   ├─ Camera.py              # 카메라 캡처 클래스
-│   │   ├─ camera_utils.py        # 카메라 관련 도우미 함수
 │   │   └─ __init__.py
 │   │
 │   ├─ detection/
 │   │   ├─ yolo_detector.py       # YOLO 추론 래퍼
-│   │   ├─ preprocessor.py        # 전처리
 │   │   └─ __init__.py
 │   │
 │   ├─ trajectory/
-│   │   ├─ Trajectory_Prediction.py # 비행체 위치 예측
-│   │   ├─ kalman_filter.py       # Kalman Filter 모듈
-│   │   └─ __init__.py
-│   │
-│   ├─ communication/
-│   │   ├─ stepper_comm.py        # Serial 통신 (PC → Arduino)
-│   │   └─ protocol.py            # 커스텀 통신 프로토콜 정의
+│   │   ├─ 🔧 Trajectory_Prediction.py # 비행체 위치 예측
+│   │   ├─ 🔧 kalman_filter.py       # Kalman Filter 모듈
 │   │   └─ __init__.py
 │   │
 │   ├─ utils/
-│   │   ├─ math_utils.py          # 좌표계 변환, 각도 계산
-│   │   ├─ draw_utils.py          # bbox, crosshair 그리기
-│   │   ├─ io_utils.py            # 파일/로그 입출력
-│   │   ├─ timer.py               # FPS 측정
+│   │   ├─ stepper_comm.py        # Serial 통신 (PC → Arduino)
 │   │   └─ __init__.py
 │   │
 │   ├─ __init__.py
@@ -101,22 +85,6 @@ project_root/
 ├─ DualAxisStepper/
 │   ├─ DualAxisStepper.ino        # 아두이노 2축 스텝모터 제어
 │   └─ README.md                  # 펌웨어 관련 설명
-│
-├─ docs/                          # 문서 (아키텍처 다이어그램, 개념 정리 등)
-│   ├─ architecture_diagram.png
-│   ├─ tracking_algorithm_notes.md
-│   └─ hardware_setup.md
-│
-├─ tests/                         # 유닛 테스트 및 통합 테스트
-│   ├─ test_detector.py
-│   ├─ test_tracker.py
-│   ├─ test_comm.py
-│   └─ README.md
-│
-├─ scripts/                       # 개발 편의 스크립트
-│   ├─ export_video.py
-│   ├─ calibration_tool.py
-│   └─ dataset_viewer.py
 │
 ├─ requirements.txt
 ├─ README.md
