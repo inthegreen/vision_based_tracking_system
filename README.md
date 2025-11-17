@@ -67,7 +67,7 @@ project_root/
 │   │   └─ __init__.py
 │   │
 │   ├─ detection/
-│   │   ├─ yolo_detector.py       # YOLO 추론 래퍼
+│   │   ├─ 🔧 yolo_detector.py       # YOLO 추론 래퍼
 │   │   └─ __init__.py
 │   │
 │   ├─ trajectory/
