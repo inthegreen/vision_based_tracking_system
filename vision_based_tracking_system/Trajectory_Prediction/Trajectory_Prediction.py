@@ -39,7 +39,7 @@ class Trajectory:
 
         # 초기 위치 및 공분산 계산
         self.p, self.sigma_p = self.compute_covariance_matrix(target_x1, target_x2, target_y1, target_y2, motor_x, motor_z,
-                              p_w=self.image_width_pixel, p_h=self.camera_height_angle, scale=camera_scale):
+                              p_w=self.image_width_pixel, p_h=self.camera_height_angle, scale=camera_scale)
 
         # 속도, 가속도 초기화
         self.v = None
