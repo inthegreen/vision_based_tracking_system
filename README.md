@@ -67,10 +67,6 @@ project_root/
 │   │   ├─ 🔧 MotorControl.py       # x, y 계산
 │   │   └─ __init__.py
 │   │
-│   ├─ detection/
-│   │   ├─ 🔧 yolo_detector.py       # YOLO 추론 래퍼
-│   │   └─ __init__.py
-│   │
 │   ├─ trajectory/
 │   │   ├─ 🔧 Trajectory_Prediction.py # 비행체 위치 예측
 │   │   ├─ 🔧 kalman_filter.py       # Kalman Filter 모듈
