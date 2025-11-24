@@ -64,6 +64,7 @@ project_root/
 ├─ vision_based_tracking_system/
 │   ├─ camera/
 │   │   ├─ Camera.py              # 카메라 캡처 클래스
+│   │   ├─ Motor_Control.py       # x, y 계산
 │   │   └─ __init__.py
 │   │
 │   ├─ detection/
