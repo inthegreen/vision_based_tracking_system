@@ -22,8 +22,7 @@
                              v
                    +-------------------+
                    |  Tracking Module  |
-                   | (Kalman + KCF/    |
-                   |   CSRT fallback)  |
+                   | (Kalman fallback) |
                    +---------+---------+
                              |
                              v
