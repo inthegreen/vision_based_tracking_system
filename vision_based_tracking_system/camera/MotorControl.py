@@ -6,7 +6,7 @@ class MotorControl:
         self.motor_x = motor_x
         self.motor_z = motor_z
 
-    def compute_steps(self):
-        pass
-
-    
+    def calculate_steps(self, target_pos):
+        '''
+        Help ~
+        '''

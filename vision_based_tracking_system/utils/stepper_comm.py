@@ -3,8 +3,8 @@ import struct
 import math
 
 class MotorController(serial.Serial):
-    def __init__(self, port, steps_per_rev=3200, baudrate=115200, timeout=1):
-        super().__init__(port, baudrate, timeout=timeout) # timeout초 동안 기다림
+    def __init__(self, port, steps_per_rev=3200, baudrate=115200, timeout=1):
+        super().__init__(port, baudrate, timeout=timeout) # timeout초 동안 기다림
         self.steps_per_rev= 3200
     def send_xy(self, x, y):
         """
